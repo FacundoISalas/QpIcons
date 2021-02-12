@@ -1,0 +1,22 @@
+{
+  "name": "qpicons",
+  "version": "1.0.0",
+  "description": "Icons For Qplus",
+  "main": "index.js",
+  "scripts": {
+    "test": "iconrun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1w1111876SalasFacundo/QpIcons.git"
+  },
+  "keywords": [
+    "qpicons"
+  ],
+  "author": "facundo salas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1w1111876SalasFacundo/QpIcons/issues"
+  },
+  "homepage": "https://github.com/1w1111876SalasFacundo/QpIcons#readme"
+}

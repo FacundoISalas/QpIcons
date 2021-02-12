@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?evwshp');
-  src:  url('fonts/mdi.eot?evwshp#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?evwshp') format('truetype'),
-    url('fonts/mdi.woff?evwshp') format('woff'),
-    url('fonts/mdi.svg?evwshp#mdi') format('svg');
+  src:  url('fonts/mdi.eot?67d2k8');
+  src:  url('fonts/mdi.eot?67d2k8#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?67d2k8') format('truetype'),
+    url('fonts/mdi.woff?67d2k8') format('woff'),
+    url('fonts/mdi.svg?67d2k8#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-chart-bar::before {
+  content: "\e940";
+}
 .mdi-alert-circle::before {
   content: "\e90c";
 }

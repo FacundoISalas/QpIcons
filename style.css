@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wopqw0');
-  src:  url('fonts/icomoon.eot?wopqw0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wopqw0') format('truetype'),
-    url('fonts/icomoon.woff?wopqw0') format('woff'),
-    url('fonts/icomoon.svg?wopqw0#icomoon') format('svg');
+  font-family: 'mdi';
+  src:  url('fonts/mdi.eot?evwshp');
+  src:  url('fonts/mdi.eot?evwshp#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?evwshp') format('truetype'),
+    url('fonts/mdi.woff?evwshp') format('woff'),
+    url('fonts/mdi.svg?evwshp#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="mdi-"], [class*=" mdi-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'mdi' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,39 +25,195 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-account-cog:before {
+.mdi-alert-circle::before {
+  content: "\e90c";
+}
+.mdi-arrow-left::before {
+  content: "\e90d";
+}
+.mdi-arrow-right::before {
+  content: "\e90e";
+}
+.mdi-book::before {
+  content: "\e90f";
+}
+.mdi-brightness-1::before {
+  content: "\e910";
+}
+.mdi-camera::before {
+  content: "\e911";
+}
+.mdi-card-account-details::before {
+  content: "\e912";
+}
+.mdi-cart::before {
+  content: "\e913";
+}
+.mdi-chart-line-variant::before {
+  content: "\e914";
+}
+.mdi-chart-pie::before {
+  content: "\e915";
+}
+.mdi-check::before {
+  content: "\e916";
+}
+.mdi-checkbox-blank::before {
+  content: "\e917";
+}
+.mdi-checkbox-blank-outline::before {
+  content: "\e918";
+}
+.mdi-checkbox-marked-outline::before {
+  content: "\e919";
+}
+.mdi-close::before {
+  content: "\e91a";
+}
+.mdi-close-box::before {
+  content: "\e91b";
+}
+.mdi-close-circle::before {
+  content: "\e91c";
+}
+.mdi-cog::before {
+  content: "\e91d";
+}
+.mdi-content-save::before {
+  content: "\e91e";
+}
+.mdi-delete::before {
+  content: "\e91f";
+}
+.mdi-dolly::before {
+  content: "\e920";
+}
+.mdi-door-closed::before {
+  content: "\e921";
+}
+.mdi-dots-horizontal::before {
+  content: "\e922";
+}
+.mdi-download::before {
+  content: "\e923";
+}
+.mdi-exclamation::before {
+  content: "\e924";
+}
+.mdi-exit-to-app::before {
+  content: "\e925";
+}
+.mdi-file-document::before {
+  content: "\e926";
+}
+.mdi-file-edit-outline::before {
+  content: "\e927";
+}
+.mdi-file-excel::before {
+  content: "\e928";
+}
+.mdi-file-image::before {
+  content: "\e929";
+}
+.mdi-file-pdf::before {
+  content: "\e92a";
+}
+.mdi-format-list-bulleted::before {
+  content: "\e92b";
+}
+.mdi-format-list-text::before {
+  content: "\e92c";
+}
+.mdi-help::before {
+  content: "\e92d";
+}
+.mdi-image-multiple::before {
+  content: "\e92e";
+}
+.mdi-information::before {
+  content: "\e92f";
+}
+.mdi-magnify::before {
+  content: "\e930";
+}
+.mdi-map::before {
+  content: "\e931";
+}
+.mdi-map-marker::before {
+  content: "\e932";
+}
+.mdi-map-search::before {
+  content: "\e933";
+}
+.mdi-play::before {
+  content: "\e934";
+}
+.mdi-plus::before {
+  content: "\e935";
+}
+.mdi-printer::before {
+  content: "\e936";
+}
+.mdi-qrcode::before {
+  content: "\e937";
+}
+.mdi-refresh::before {
+  content: "\e938";
+}
+.mdi-send::before {
+  content: "\e939";
+}
+.mdi-server::before {
+  content: "\e93a";
+}
+.mdi-stop::before {
+  content: "\e93b";
+}
+.mdi-swap-horizontal::before {
+  content: "\e93c";
+}
+.mdi-table::before {
+  content: "\e93d";
+}
+.mdi-truck::before {
+  content: "\e93e";
+}
+.mdi-warehouse::before {
+  content: "\e93f";
+}
+.mdi-account-cog::before {
   content: "\e900";
 }
-.mdi-account-hard-hat:before {
+.mdi-account-hard-hat::before {
   content: "\e901";
 }
-.mdi-application:before {
+.mdi-application::before {
   content: "\e902";
 }
-.mdi-archive:before {
+.mdi-archive::before {
   content: "\e903";
 }
-.mdi-calendar:before {
+.mdi-calendar::before {
   content: "\e904";
 }
-.mdi-calendar-clock:before {
+.mdi-calendar-clock::before {
   content: "\e905";
 }
-.mdi-chevron-down:before {
+.mdi-chevron-down::before {
   content: "\e906";
 }
-.mdi-clipboard-text:before {
+.mdi-clipboard-text::before {
   content: "\e907";
 }
-.mdi-clock:before {
+.mdi-clock::before {
   content: "\e908";
 }
-.mdi-home:before {
+.mdi-home::before {
   content: "\e909";
 }
-.mdi-source-merge:before {
+.mdi-source-merge::before {
   content: "\e90a";
 }
-.mdi-webpack:before {
+.mdi-webpack::before {
   content: "\e90b";
 }

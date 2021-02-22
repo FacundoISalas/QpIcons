@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?67d2k8');
-  src:  url('fonts/mdi.eot?67d2k8#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?67d2k8') format('truetype'),
-    url('fonts/mdi.woff?67d2k8') format('woff'),
-    url('fonts/mdi.svg?67d2k8#mdi') format('svg');
+  src:  url('fonts/mdi.eot?cvssf9');
+  src:  url('fonts/mdi.eot?cvssf9#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?cvssf9') format('truetype'),
+    url('fonts/mdi.woff?cvssf9') format('woff'),
+    url('fonts/mdi.svg?cvssf9#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,54 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-playlist-check::before {
+  content: "\e950";
+}
+.mdi-file-upload::before {
+  content: "\e94b";
+}
+.mdi-palette::before {
+  content: "\e94c";
+}
+.mdi-alert::before {
+  content: "\e94d";
+}
+.mdi-earth::before {
+  content: "\e94e";
+}
+.mdi-account-lock::before {
+  content: "\e94f";
+}
+.mdi-logout::before {
+  content: "\e94a";
+}
+.mdi-account::before {
+  content: "\e949";
+}
+.mdi-office-building::before {
+  content: "\e947";
+}
+.mdi-arrow-down-bold-circle-outline::before {
+  content: "\e948";
+}
+.mdi-arrow-down::before {
+  content: "\e942";
+}
+.mdi-arrow-up::before {
+  content: "\e943";
+}
+.mdi-minus-box-outline::before {
+  content: "\e944";
+}
+.mdi-plus-box-outline::before {
+  content: "\e945";
+}
+.mdi-lightbulb::before {
+  content: "\e946";
+}
+.mdi-chevron-right::before {
+  content: "\e941";
+}
 .mdi-chart-bar::before {
   content: "\e940";
 }

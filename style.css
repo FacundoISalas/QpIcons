@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?hqj7a7');
-  src:  url('fonts/mdi.eot?hqj7a7#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?hqj7a7') format('truetype'),
-    url('fonts/mdi.woff?hqj7a7') format('woff'),
-    url('fonts/mdi.svg?hqj7a7#mdi') format('svg');
+  src:  url('fonts/mdi.eot?73fpml');
+  src:  url('fonts/mdi.eot?73fpml#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?73fpml') format('truetype'),
+    url('fonts/mdi.woff?73fpml') format('woff'),
+    url('fonts/mdi.svg?73fpml#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-menu-up::before {
+  content: "\e957";
+}
+.mdi-menu-left::before {
+  content: "\e958";
+}
+.mdi-menu-right::before {
+  content: "\e959";
+}
+.mdi-menu-down::before {
+  content: "\e95a";
+}
 .mdi-chevron-left::before {
   content: "\e955";
 }

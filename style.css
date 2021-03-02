@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?8rtfsq');
-  src:  url('fonts/mdi.eot?8rtfsq#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?8rtfsq') format('truetype'),
-    url('fonts/mdi.woff?8rtfsq') format('woff'),
-    url('fonts/mdi.svg?8rtfsq#mdi') format('svg');
+  src:  url('fonts/mdi.eot?34ths3');
+  src:  url('fonts/mdi.eot?34ths3#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?34ths3') format('truetype'),
+    url('fonts/mdi.woff?34ths3') format('woff'),
+    url('fonts/mdi.svg?34ths3#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-mdi-check-box-blank-outline::before {
+  content: "\e95c";
+}
+.mdi-mdi-check-box-outline::before {
+  content: "\e95d";
+}
 .mdi-check-box-outline::before {
   content: "\e95b";
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?54fw0s');
-  src:  url('fonts/mdi.eot?54fw0s#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?54fw0s') format('truetype'),
-    url('fonts/mdi.woff?54fw0s') format('woff'),
-    url('fonts/mdi.svg?54fw0s#mdi') format('svg');
+  src:  url('fonts/mdi.eot?bqdxps');
+  src:  url('fonts/mdi.eot?bqdxps#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?bqdxps') format('truetype'),
+    url('fonts/mdi.woff?bqdxps') format('woff'),
+    url('fonts/mdi.svg?bqdxps#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-paperclip::before {
+  content: "\e96c";
+}
 .mdi-folder-upload::before {
   content: "\e96b";
 }

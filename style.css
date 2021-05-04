@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?hobdxt');
-  src:  url('fonts/mdi.eot?hobdxt#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?hobdxt') format('truetype'),
-    url('fonts/mdi.woff?hobdxt') format('woff'),
-    url('fonts/mdi.svg?hobdxt#mdi') format('svg');
+  src:  url('fonts/mdi.eot?hyzquq');
+  src:  url('fonts/mdi.eot?hyzquq#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?hyzquq') format('truetype'),
+    url('fonts/mdi.woff?hyzquq') format('woff'),
+    url('fonts/mdi.svg?hyzquq#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-filter-variant::before {
+  content: "\e96f";
+}
+.mdi-filter-remove-outline::before {
+  content: "\e970";
+}
+.mdi-filter-remove::before {
+  content: "\e971";
+}
+.mdi-filter-outline::before {
+  content: "\e972";
+}
+.mdi-filter::before {
+  content: "\e973";
+}
 .mdi-package-variant-closed::before {
   content: "\e96d";
 }

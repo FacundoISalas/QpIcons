@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?hyzquq');
-  src:  url('fonts/mdi.eot?hyzquq#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?hyzquq') format('truetype'),
-    url('fonts/mdi.woff?hyzquq') format('woff'),
-    url('fonts/mdi.svg?hyzquq#mdi') format('svg');
+  src:  url('fonts/mdi.eot?pm56ks');
+  src:  url('fonts/mdi.eot?pm56ks#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?pm56ks') format('truetype'),
+    url('fonts/mdi.woff?pm56ks') format('woff'),
+    url('fonts/mdi.svg?pm56ks#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-arrow-all::before {
+  content: "\e974";
+}
 .mdi-filter-variant::before {
   content: "\e96f";
 }

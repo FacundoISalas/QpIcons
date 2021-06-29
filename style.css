@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?hqhka7');
-  src:  url('fonts/mdi.eot?hqhka7#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?hqhka7') format('truetype'),
-    url('fonts/mdi.woff?hqhka7') format('woff'),
-    url('fonts/mdi.svg?hqhka7#mdi') format('svg');
+  src:  url('fonts/mdi.eot?9p61g6');
+  src:  url('fonts/mdi.eot?9p61g6#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?9p61g6') format('truetype'),
+    url('fonts/mdi.woff?9p61g6') format('woff'),
+    url('fonts/mdi.svg?9p61g6#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-form-dropdown::before {
+  content: "\e983";
+}
+.mdi-form-textarea::before {
+  content: "\e984";
+}
+.mdi-form-textbox::before {
+  content: "\e985";
+}
+.mdi-list-status::before {
+  content: "\e986";
+}
+.mdi-numeric::before {
+  content: "\e987";
+}
+.mdi-clipboard-check::before {
+  content: "\e988";
+}
+.mdi-file::before {
+  content: "\e989";
+}
 .mdi-form-select::before {
   content: "\e982";
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?leqjha');
-  src:  url('fonts/mdi.eot?leqjha#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?leqjha') format('truetype'),
-    url('fonts/mdi.woff?leqjha') format('woff'),
-    url('fonts/mdi.svg?leqjha#mdi') format('svg');
+  src:  url('fonts/mdi.eot?xgjdtv');
+  src:  url('fonts/mdi.eot?xgjdtv#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?xgjdtv') format('truetype'),
+    url('fonts/mdi.woff?xgjdtv') format('woff'),
+    url('fonts/mdi.svg?xgjdtv#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-palette-swatch::before {
+  content: "\e98b";
+}
+.mdi-excavator::before {
+  content: "\e98c";
+}
+.mdi-clock-time-four-outline::before {
+  content: "\e98d";
+}
 .mdi-calendar-plus::before {
   content: "\e98a";
 }

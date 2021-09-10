@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?j3guzk');
-  src:  url('fonts/mdi.eot?j3guzk#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?j3guzk') format('truetype'),
-    url('fonts/mdi.woff?j3guzk') format('woff'),
-    url('fonts/mdi.svg?j3guzk#mdi') format('svg');
+  src:  url('fonts/mdi.eot?6fpoi8');
+  src:  url('fonts/mdi.eot?6fpoi8#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?6fpoi8') format('truetype'),
+    url('fonts/mdi.woff?6fpoi8') format('woff'),
+    url('fonts/mdi.svg?6fpoi8#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-truck-outline::before {
+  content: "\e9a3";
+}
 .mdi-chart-gantt::before {
   content: "\e9a2";
 }

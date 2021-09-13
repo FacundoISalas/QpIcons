@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?6fpoi8');
-  src:  url('fonts/mdi.eot?6fpoi8#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?6fpoi8') format('truetype'),
-    url('fonts/mdi.woff?6fpoi8') format('woff'),
-    url('fonts/mdi.svg?6fpoi8#mdi') format('svg');
+  src:  url('fonts/mdi.eot?69xb1y');
+  src:  url('fonts/mdi.eot?69xb1y#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?69xb1y') format('truetype'),
+    url('fonts/mdi.woff?69xb1y') format('woff'),
+    url('fonts/mdi.svg?69xb1y#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-file-video::before {
+  content: "\e9a4";
+}
+.mdi-video::before {
+  content: "\e9a5";
+}
 .mdi-truck-outline::before {
   content: "\e9a3";
 }

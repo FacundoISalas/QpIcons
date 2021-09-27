@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?1u17v6');
-  src:  url('fonts/mdi.eot?1u17v6#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?1u17v6') format('truetype'),
-    url('fonts/mdi.woff?1u17v6') format('woff'),
-    url('fonts/mdi.svg?1u17v6#mdi') format('svg');
+  src:  url('fonts/mdi.eot?80yp2h');
+  src:  url('fonts/mdi.eot?80yp2h#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?80yp2h') format('truetype'),
+    url('fonts/mdi.woff?80yp2h') format('woff'),
+    url('fonts/mdi.svg?80yp2h#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-stop-circle-outline::before {
+  content: "\e9a8";
+}
+.mdi-arrow-right-bold-circle::before {
+  content: "\e9a9";
+}
+.mdi-stop-circle::before {
+  content: "\e9aa";
+}
 .mdi-image-multiple-outline::before {
   content: "\e9a6";
 }

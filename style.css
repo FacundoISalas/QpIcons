@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?g07wcy');
-  src:  url('fonts/mdi.eot?g07wcy#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?g07wcy') format('truetype'),
-    url('fonts/mdi.woff?g07wcy') format('woff'),
-    url('fonts/mdi.svg?g07wcy#mdi') format('svg');
+  src:  url('fonts/mdi.eot?f11jnl');
+  src:  url('fonts/mdi.eot?f11jnl#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?f11jnl') format('truetype'),
+    url('fonts/mdi.woff?f11jnl') format('woff'),
+    url('fonts/mdi.svg?f11jnl#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,17 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-clipboard-clock-outline::before {
+  content: "\e9b3";
+}
+.mdi-clipboard-clock::before {
+  content: "\e9b4";
+}
 .mdi-clipboard-text-clock-outline::before {
   content: "\e9b1";
 }
 .mdi-clipboard-text-clock::before {
   content: "\e9b2";
-}
-.mdi-clipboard-text-outline::before {
-  content: "\e9b3";
-}
-.mdi-clipboard-text::before {
-  content: "\e9b4";
 }
 .mdi-account-wrench-outline::before {
   content: "\e9af";

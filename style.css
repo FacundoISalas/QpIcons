@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?b83zyi');
-  src:  url('fonts/mdi.eot?b83zyi#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?b83zyi') format('truetype'),
-    url('fonts/mdi.woff?b83zyi') format('woff'),
-    url('fonts/mdi.svg?b83zyi#mdi') format('svg');
+  src:  url('fonts/mdi.eot?c0z6gx');
+  src:  url('fonts/mdi.eot?c0z6gx#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?c0z6gx') format('truetype'),
+    url('fonts/mdi.woff?c0z6gx') format('woff'),
+    url('fonts/mdi.svg?c0z6gx#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-tag-text-outline::before {
+  content: "\e9be";
+}
+.mdi-tag-text::before {
+  content: "\e9bf";
+}
+.mdi-tag-plus-outline::before {
+  content: "\e9c0";
+}
+.mdi-tag-plus::before {
+  content: "\e9c1";
+}
+.mdi-tag-outline::before {
+  content: "\e9c2";
+}
+.mdi-tag-off-outline::before {
+  content: "\e9c3";
+}
+.mdi-tag-off::before {
+  content: "\e9c4";
+}
+.mdi-tag-multiple-outline::before {
+  content: "\e9c5";
+}
+.mdi-tag-multiple::before {
+  content: "\e9c6";
+}
+.mdi-tag::before {
+  content: "\e9c7";
+}
 .mdi-text-to-speech::before {
   content: "\e9bd";
 }

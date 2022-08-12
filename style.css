@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?t1i91i');
-  src:  url('fonts/mdi.eot?t1i91i#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?t1i91i') format('truetype'),
-    url('fonts/mdi.woff?t1i91i') format('woff'),
-    url('fonts/mdi.svg?t1i91i#mdi') format('svg');
+  src:  url('fonts/mdi.eot?kennxk');
+  src:  url('fonts/mdi.eot?kennxk#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?kennxk') format('truetype'),
+    url('fonts/mdi.woff?kennxk') format('woff'),
+    url('fonts/mdi.svg?kennxk#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-star::before {
+  content: "\e9de";
+}
+.mdi-star-outline::before {
+  content: "\e9df";
+}
+.mdi-star-cog::before {
+  content: "\e9e0";
+}
+.mdi-star-cog-outline::before {
+  content: "\e9e1";
+}
+.mdi-file-chart-outline::before {
+  content: "\e9e2";
+}
+.mdi-file-chart::before {
+  content: "\e9e3";
+}
+.mdi-chart-waterfall::before {
+  content: "\e9e4";
+}
+.mdi-chart-line::before {
+  content: "\e9e5";
+}
+.mdi-chart-line-variant1::before {
+  content: "\e9e6";
+}
+.mdi-chart-bell-curve::before {
+  content: "\e9e7";
+}
+.mdi-chart-bell-curve-cumulative::before {
+  content: "\e9e8";
+}
 .mdi-piston::before {
   content: "\e9dd";
 }

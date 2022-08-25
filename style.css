@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?kennxk');
-  src:  url('fonts/mdi.eot?kennxk#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?kennxk') format('truetype'),
-    url('fonts/mdi.woff?kennxk') format('woff'),
-    url('fonts/mdi.svg?kennxk#mdi') format('svg');
+  src:  url('fonts/mdi.eot?l414pt');
+  src:  url('fonts/mdi.eot?l414pt#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?l414pt') format('truetype'),
+    url('fonts/mdi.woff?l414pt') format('woff'),
+    url('fonts/mdi.svg?l414pt#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-view-kanban::before {
+  content: "\e9e9";
+}
 .mdi-star::before {
   content: "\e9de";
 }

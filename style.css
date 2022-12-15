@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?oa6ad5');
-  src:  url('fonts/mdi.eot?oa6ad5#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?oa6ad5') format('truetype'),
-    url('fonts/mdi.woff?oa6ad5') format('woff'),
-    url('fonts/mdi.svg?oa6ad5#mdi') format('svg');
+  src:  url('fonts/mdi.eot?oefl0w');
+  src:  url('fonts/mdi.eot?oefl0w#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?oefl0w') format('truetype'),
+    url('fonts/mdi.woff?oefl0w') format('woff'),
+    url('fonts/mdi.svg?oefl0w#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-file-document-remove-outline::before {
+  content: "\e9f7";
+}
+.mdi-file-document-remove::before {
+  content: "\e9f8";
+}
+.mdi-content-save-cog-outline::before {
+  content: "\e9f9";
+}
+.mdi-content-save-cog::before {
+  content: "\e9fa";
+}
+.mdi-content-save-move-outline::before {
+  content: "\e9fb";
+}
+.mdi-content-save-move::before {
+  content: "\e9fc";
+}
+.mdi-content-save-check-outline::before {
+  content: "\e9fd";
+}
+.mdi-content-save-check::before {
+  content: "\e9fe";
+}
+.mdi-dots-vertical::before {
+  content: "\e9ff";
+}
 .mdi-image-edit::before {
   content: "\e9f5";
 }

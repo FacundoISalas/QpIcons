@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?iv9osr');
-  src:  url('fonts/mdi.eot?iv9osr#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?iv9osr') format('truetype'),
-    url('fonts/mdi.woff?iv9osr') format('woff'),
-    url('fonts/mdi.svg?iv9osr#mdi') format('svg');
+  src:  url('fonts/mdi.eot?dlle8q');
+  src:  url('fonts/mdi.eot?dlle8q#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?dlle8q') format('truetype'),
+    url('fonts/mdi.woff?dlle8q') format('woff'),
+    url('fonts/mdi.svg?dlle8q#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-check-all::before {
+  content: "\ea0c";
+}
 .mdi-bell-check::before {
   content: "\ea09";
 }

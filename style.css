@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?nv1jhv');
-  src:  url('fonts/mdi.eot?nv1jhv#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?nv1jhv') format('truetype'),
-    url('fonts/mdi.woff?nv1jhv') format('woff'),
-    url('fonts/mdi.svg?nv1jhv#mdi') format('svg');
+  src:  url('fonts/mdi.eot?u9okxh');
+  src:  url('fonts/mdi.eot?u9okxh#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?u9okxh') format('truetype'),
+    url('fonts/mdi.woff?u9okxh') format('woff'),
+    url('fonts/mdi.svg?u9okxh#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-bookmark-minus-outline::before {
+  content: "\ea18";
+}
+.mdi-bookmark-outline::before {
+  content: "\ea19";
+}
+.mdi-bookmark-plus-outline::before {
+  content: "\ea1a";
+}
+.mdi-bookmark-plus::before {
+  content: "\ea1b";
+}
+.mdi-bookmark-minus::before {
+  content: "\ea1c";
+}
+.mdi-bookmark::before {
+  content: "\ea1d";
+}
 .mdi-bell-circle-outline::before {
   content: "\ea15";
 }

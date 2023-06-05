@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?ukelw0');
-  src:  url('fonts/mdi.eot?ukelw0#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?ukelw0') format('truetype'),
-    url('fonts/mdi.woff?ukelw0') format('woff'),
-    url('fonts/mdi.svg?ukelw0#mdi') format('svg');
+  src:  url('fonts/mdi.eot?x18fp2');
+  src:  url('fonts/mdi.eot?x18fp2#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?x18fp2') format('truetype'),
+    url('fonts/mdi.woff?x18fp2') format('woff'),
+    url('fonts/mdi.svg?x18fp2#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,7 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-bookmark-check-outline-1::before {
+.mdi-bookmark-check::before {
   content: "\ea1e";
 }
 .mdi-bookmark-check-outline::before {

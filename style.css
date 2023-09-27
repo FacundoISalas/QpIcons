@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?hvqnu');
-  src:  url('fonts/mdi.eot?hvqnu#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?hvqnu') format('truetype'),
-    url('fonts/mdi.woff?hvqnu') format('woff'),
-    url('fonts/mdi.svg?hvqnu#mdi') format('svg');
+  src:  url('fonts/mdi.eot?ei6phl');
+  src:  url('fonts/mdi.eot?ei6phl#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?ei6phl') format('truetype'),
+    url('fonts/mdi.woff?ei6phl') format('woff'),
+    url('fonts/mdi.svg?ei6phl#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-engine-minus: .path1:before {
+  content: "\ea2f";
+  color: rgb(0, 0, 0);
+}
+.mdi-engine-minus: .path2:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.mdi-engine-minus: .path3:before {
+  content: "\ea31";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.mdi-engine-plus: .path1:before {
+  content: "\ea32";
+  color: rgb(0, 0, 0);
+}
+.mdi-engine-plus: .path2:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.mdi-engine-plus: .path3:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
 .mdi-cart-percent::before {
   content: "\ea2e";
 }

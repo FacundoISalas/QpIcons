@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?qphqq4');
-  src:  url('fonts/mdi.eot?qphqq4#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?qphqq4') format('truetype'),
-    url('fonts/mdi.woff?qphqq4') format('woff'),
-    url('fonts/mdi.svg?qphqq4#mdi') format('svg');
+  src:  url('fonts/mdi.eot?shoqhd');
+  src:  url('fonts/mdi.eot?shoqhd#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?shoqhd') format('truetype'),
+    url('fonts/mdi.woff?shoqhd') format('woff'),
+    url('fonts/mdi.svg?shoqhd#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-clock-plus:before {
+  content: "\ea3e";
+}
+.mdi-clock-plus-outline:before {
+  content: "\ea3f";
+}
+.mdi-timeline-clock:before {
+  content: "\ea40";
+}
+.mdi-clock-start:before {
+  content: "\ea41";
+}
+.mdi-account-clock:before {
+  content: "\ea42";
+}
+.mdi-account-clock-outline:before {
+  content: "\ea43";
+}
+.mdi-bed-clock:before {
+  content: "\ea44";
+}
+.mdi-clock-check-outline:before {
+  content: "\ea45";
+}
+.mdi-clock-check:before {
+  content: "\ea46";
+}
+.mdi-clock-remove:before {
+  content: "\ea47";
+}
+.mdi-clock-remove-outline:before {
+  content: "\ea48";
+}
+.mdi-timeline-clock-outline:before {
+  content: "\ea49";
+}
 .mdi-boom-gate-alert-outline:before {
   content: "\ea3c";
 }

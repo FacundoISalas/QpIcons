@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?ozuh3c');
-  src:  url('fonts/mdi.eot?ozuh3c#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?ozuh3c') format('truetype'),
-    url('fonts/mdi.woff?ozuh3c') format('woff'),
-    url('fonts/mdi.svg?ozuh3c#mdi') format('svg');
+  src:  url('fonts/mdi.eot?5dggbi');
+  src:  url('fonts/mdi.eot?5dggbi#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?5dggbi') format('truetype'),
+    url('fonts/mdi.woff?5dggbi') format('woff'),
+    url('fonts/mdi.svg?5dggbi#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,14 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-clock-alert-outline:before {
+.mdi-truck-fast:before {
   content: "\ea4a";
 }
-.mdi-clock-alert:before {
+.mdi-truck-fast-outline:before {
   content: "\ea4b";
 }
-.mdi-clock-end:before {
+.mdi-clock-alert-outline:before {
   content: "\ea4c";
+}
+.mdi-clock-alert:before {
+  content: "\ea4d";
+}
+.mdi-clock-end:before {
+  content: "\ea4e";
 }
 .mdi-clock-plus:before {
   content: "\ea3e";

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?5dggbi');
-  src:  url('fonts/mdi.eot?5dggbi#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?5dggbi') format('truetype'),
-    url('fonts/mdi.woff?5dggbi') format('woff'),
-    url('fonts/mdi.svg?5dggbi#mdi') format('svg');
+  src:  url('fonts/mdi.eot?i7rm1u');
+  src:  url('fonts/mdi.eot?i7rm1u#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?i7rm1u') format('truetype'),
+    url('fonts/mdi.woff?i7rm1u') format('woff'),
+    url('fonts/mdi.svg?i7rm1u#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,20 +25,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-truck-fast:before {
+.mdi-shield-account:before {
   content: "\ea4a";
 }
-.mdi-truck-fast-outline:before {
+.mdi-shield-alert-outline:before {
   content: "\ea4b";
 }
-.mdi-clock-alert-outline:before {
+.mdi-shield-alert:before {
   content: "\ea4c";
 }
-.mdi-clock-alert:before {
+.mdi-lock-open:before {
   content: "\ea4d";
 }
-.mdi-clock-end:before {
+.mdi-lock-open-outline:before {
   content: "\ea4e";
+}
+.mdi-lock-reset:before {
+  content: "\ea4f";
+}
+.mdi-shield-account-outline:before {
+  content: "\ea50";
+}
+.mdi-truck-fast:before {
+  content: "\ea51";
+}
+.mdi-truck-fast-outline:before {
+  content: "\ea52";
+}
+.mdi-clock-alert-outline:before {
+  content: "\ea53";
+}
+.mdi-clock-alert:before {
+  content: "\ea54";
+}
+.mdi-clock-end:before {
+  content: "\ea55";
 }
 .mdi-clock-plus:before {
   content: "\ea3e";

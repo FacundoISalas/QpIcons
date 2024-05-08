@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?i7rm1u');
-  src:  url('fonts/mdi.eot?i7rm1u#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?i7rm1u') format('truetype'),
-    url('fonts/mdi.woff?i7rm1u') format('woff'),
-    url('fonts/mdi.svg?i7rm1u#mdi') format('svg');
+  src:  url('fonts/mdi.eot?suou2s');
+  src:  url('fonts/mdi.eot?suou2s#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?suou2s') format('truetype'),
+    url('fonts/mdi.woff?suou2s') format('woff'),
+    url('fonts/mdi.svg?suou2s#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-drag-vertical-variant:before {
+  content: "\ea56";
+}
+.mdi-drag-variant:before {
+  content: "\ea57";
+}
+.mdi-drag-horizontal:before {
+  content: "\ea58";
+}
+.mdi-drag:before {
+  content: "\ea59";
+}
+.mdi-ruler-square-compass:before {
+  content: "\ea5a";
+}
 .mdi-shield-account:before {
   content: "\ea4a";
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?cqpd0m');
-  src:  url('fonts/mdi.eot?cqpd0m#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?cqpd0m') format('truetype'),
-    url('fonts/mdi.woff?cqpd0m') format('woff'),
-    url('fonts/mdi.svg?cqpd0m#mdi') format('svg');
+  src:  url('fonts/mdi.eot?woze83');
+  src:  url('fonts/mdi.eot?woze83#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?woze83') format('truetype'),
+    url('fonts/mdi.woff?woze83') format('woff'),
+    url('fonts/mdi.svg?woze83#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-home-switch-outline:before {
+  content: "\ea61";
+}
+.mdi-home-switch:before {
+  content: "\ea62";
+}
+.mdi-home-plus-outline:before {
+  content: "\ea63";
+}
+.mdi-home-plus:before {
+  content: "\ea64";
+}
+.mdi-home-account:before {
+  content: "\ea65";
+}
+.mdi-home-edit:before {
+  content: "\ea66";
+}
+.mdi-home-edit-outline:before {
+  content: "\ea67";
+}
 .mdi-flag-variant:before {
   content: "\ea5f";
 }

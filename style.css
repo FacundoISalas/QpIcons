@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?woze83');
-  src:  url('fonts/mdi.eot?woze83#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?woze83') format('truetype'),
-    url('fonts/mdi.woff?woze83') format('woff'),
-    url('fonts/mdi.svg?woze83#mdi') format('svg');
+  src:  url('fonts/mdi.eot?z6q82i');
+  src:  url('fonts/mdi.eot?z6q82i#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?z6q82i') format('truetype'),
+    url('fonts/mdi.woff?z6q82i') format('woff'),
+    url('fonts/mdi.svg?z6q82i#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-hammer-wrench:before {
+  content: "\ea68";
+}
+.mdi-hammer-screwdriver:before {
+  content: "\ea69";
+}
 .mdi-home-switch-outline:before {
   content: "\ea61";
 }

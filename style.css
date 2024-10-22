@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?lhi33s');
-  src:  url('fonts/mdi.eot?lhi33s#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?lhi33s') format('truetype'),
-    url('fonts/mdi.woff?lhi33s') format('woff'),
-    url('fonts/mdi.svg?lhi33s#mdi') format('svg');
+  src:  url('fonts/mdi.eot?jpjdsa');
+  src:  url('fonts/mdi.eot?jpjdsa#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?jpjdsa') format('truetype'),
+    url('fonts/mdi.woff?jpjdsa') format('woff'),
+    url('fonts/mdi.svg?jpjdsa#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-geometry-job-cost:before {
-  content: "\ea6d";
-}
-.mdi-labor-cost:before {
-  content: "\ea6e";
-}
 .mdi-database-search:before {
   content: "\ea6b";
 }

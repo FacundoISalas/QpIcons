@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?8at37l');
-  src:  url('fonts/mdi.eot?8at37l#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?8at37l') format('truetype'),
-    url('fonts/mdi.woff?8at37l') format('woff'),
-    url('fonts/mdi.svg?8at37l#mdi') format('svg');
+  src:  url('fonts/mdi.eot?sexi5y');
+  src:  url('fonts/mdi.eot?sexi5y#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?sexi5y') format('truetype'),
+    url('fonts/mdi.woff?sexi5y') format('woff'),
+    url('fonts/mdi.svg?sexi5y#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,10 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mdi-account-hard-hat-currency:before {
+.mdi-camera-switch-outline:before {
   content: "\ea6d";
 }
-.mdi-ruler-square-compass-currency:before {
+.mdi-camera-switch:before {
   content: "\ea6e";
 }
 .mdi-database-search:before {

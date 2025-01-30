@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?890lsf');
-  src:  url('fonts/mdi.eot?890lsf#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?890lsf') format('truetype'),
-    url('fonts/mdi.woff?890lsf') format('woff'),
-    url('fonts/mdi.svg?890lsf#mdi') format('svg');
+  src:  url('fonts/mdi.eot?4zlqm1');
+  src:  url('fonts/mdi.eot?4zlqm1#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?4zlqm1') format('truetype'),
+    url('fonts/mdi.woff?4zlqm1') format('woff'),
+    url('fonts/mdi.svg?4zlqm1#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-invoice-remove:before {
+  content: "\ea77";
+}
+.mdi-invoice-remove-outline:before {
+  content: "\ea78";
+}
+.mdi-invoice-check-outline:before {
+  content: "\ea79";
+}
+.mdi-invoice-check:before {
+  content: "\ea7a";
+}
 .mdi-clipboard-flow-outline:before {
   content: "\ea75";
 }

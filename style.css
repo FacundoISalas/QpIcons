@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?5t2z0c');
-  src:  url('fonts/mdi.eot?5t2z0c#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?5t2z0c') format('truetype'),
-    url('fonts/mdi.woff?5t2z0c') format('woff'),
-    url('fonts/mdi.svg?5t2z0c#mdi') format('svg');
+  src:  url('fonts/mdi.eot?v5e6bu');
+  src:  url('fonts/mdi.eot?v5e6bu#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?v5e6bu') format('truetype'),
+    url('fonts/mdi.woff?v5e6bu') format('woff'),
+    url('fonts/mdi.svg?v5e6bu#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-database-eye-off-outline:before {
+  content: "\ea84";
+}
+.mdi-database-eye-off:before {
+  content: "\ea85";
+}
+.mdi-database-eye-outline:before {
+  content: "\ea86";
+}
+.mdi-database-eye:before {
+  content: "\ea87";
+}
 .mdi-contain-start:before {
   content: "\ea81";
 }

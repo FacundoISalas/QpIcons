@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?2p7dnv');
-  src:  url('fonts/mdi.eot?2p7dnv#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?2p7dnv') format('truetype'),
-    url('fonts/mdi.woff?2p7dnv') format('woff'),
-    url('fonts/mdi.svg?2p7dnv#mdi') format('svg');
+  src:  url('fonts/mdi.eot?yxydcj');
+  src:  url('fonts/mdi.eot?yxydcj#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?yxydcj') format('truetype'),
+    url('fonts/mdi.woff?yxydcj') format('woff'),
+    url('fonts/mdi.svg?yxydcj#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-order-bool-ascending-variant:before {
+  content: "\ea02";
+}
+.mdi-order-bool-ascending:before {
+  content: "\eaa0";
+}
 .mdi-format-text:before {
   content: "\ea9e";
 }
@@ -501,9 +507,6 @@
 }
 .mdi-format-list-bulleted-type:before {
   content: "\ea00";
-}
-.mdi-order-bool-ascending:before {
-  content: "\ea02";
 }
 .mdi-file-document-remove-outline:before {
   content: "\e9f7";

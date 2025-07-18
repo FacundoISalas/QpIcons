@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?muxyl3');
-  src:  url('fonts/mdi.eot?muxyl3#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?muxyl3') format('truetype'),
-    url('fonts/mdi.woff?muxyl3') format('woff'),
-    url('fonts/mdi.svg?muxyl3#mdi') format('svg');
+  src:  url('fonts/mdi.eot?w4ag3a');
+  src:  url('fonts/mdi.eot?w4ag3a#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?w4ag3a') format('truetype'),
+    url('fonts/mdi.woff?w4ag3a') format('woff'),
+    url('fonts/mdi.svg?w4ag3a#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-checkbox-marked-circle-outline:before {
+  content: "\eaa8";
+}
+.mdi-checkbox-marked-circle:before {
+  content: "\eaa9";
+}
+.mdi-timer-sand-paused:before {
+  content: "\eaaa";
+}
+.mdi-timer-sand:before {
+  content: "\eaab";
+}
+.mdi-timer-sand-full:before {
+  content: "\eaac";
+}
+.mdi-timer-sand-empty:before {
+  content: "\eaad";
+}
+.mdi-timer-sand-complete:before {
+  content: "\eaae";
+}
 .mdi-order-alphabetical-ascending:before {
   content: "\eaa7";
 }

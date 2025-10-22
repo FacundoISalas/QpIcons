@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?y0tl0q');
-  src:  url('fonts/mdi.eot?y0tl0q#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?y0tl0q') format('truetype'),
-    url('fonts/mdi.woff?y0tl0q') format('woff'),
-    url('fonts/mdi.svg?y0tl0q#mdi') format('svg');
+  src:  url('fonts/mdi.eot?vtcwzm');
+  src:  url('fonts/mdi.eot?vtcwzm#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?vtcwzm') format('truetype'),
+    url('fonts/mdi.woff?vtcwzm') format('woff'),
+    url('fonts/mdi.svg?vtcwzm#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-rhombus:before {
+  content: "\eaba";
+}
+.mdi-rhombus-outline:before {
+  content: "\eabb";
+}
+.mdi-alarm-light-outline:before {
+  content: "\eabc";
+}
+.mdi-information-outline:before {
+  content: "\eabd";
+}
+.mdi-hand-front-right-outline:before {
+  content: "\eabe";
+}
+.mdi-alert-outline:before {
+  content: "\eabf";
+}
+.mdi-progress-clock:before {
+  content: "\eac0";
+}
+.mdi-timer-pause-outline:before {
+  content: "\eac1";
+}
 .mdi-knob:before {
   content: "\eab5";
 }

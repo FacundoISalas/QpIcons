@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?f84atx');
-  src:  url('fonts/mdi.eot?f84atx#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?f84atx') format('truetype'),
-    url('fonts/mdi.woff?f84atx') format('woff'),
-    url('fonts/mdi.svg?f84atx#mdi') format('svg');
+  src:  url('fonts/mdi.eot?3njg81');
+  src:  url('fonts/mdi.eot?3njg81#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?3njg81') format('truetype'),
+    url('fonts/mdi.woff?3njg81') format('woff'),
+    url('fonts/mdi.svg?3njg81#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-layers-triple-outline:before {
+  content: "\eaca";
+}
+.mdi-human-male-height:before {
+  content: "\eacb";
+}
+.mdi-map-marker-outline:before {
+  content: "\eacc";
+}
+.mdi-invoice-text-outline:before {
+  content: "\eacd";
+}
+.mdi-road-variant:before {
+  content: "\eace";
+}
+.mdi-road:before {
+  content: "\eacf";
+}
 .mdi-reply:before {
   content: "\eac8";
 }

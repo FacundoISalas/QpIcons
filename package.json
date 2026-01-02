@@ -1,6 +1,10 @@
 {
   "name": "qpicons",
+<<<<<<< HEAD
   "version": "2.2.10",
+=======
+  "version": "2.9.2",
+>>>>>>> f89d1a9976a54aa5f6e34b62613f55fbd03b35c9
   "description": "Icons For Qplus",
   "main": "index.js",
   "scripts": {

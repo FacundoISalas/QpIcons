@@ -1,10 +1,18 @@
 @font-face {
   font-family: 'mdi';
+<<<<<<< HEAD
   src:  url('fonts/mdi.eot?nbgzte');
   src:  url('fonts/mdi.eot?nbgzte#iefix') format('embedded-opentype'),
     url('fonts/mdi.ttf?nbgzte') format('truetype'),
     url('fonts/mdi.woff?nbgzte') format('woff'),
     url('fonts/mdi.svg?nbgzte#mdi') format('svg');
+=======
+  src:  url('fonts/mdi.eot?jhv2k');
+  src:  url('fonts/mdi.eot?jhv2k#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?jhv2k') format('truetype'),
+    url('fonts/mdi.woff?jhv2k') format('woff'),
+    url('fonts/mdi.svg?jhv2k#mdi') format('svg');
+>>>>>>> f89d1a9976a54aa5f6e34b62613f55fbd03b35c9
   font-weight: normal;
   font-style: normal;
   font-display: block;

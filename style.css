@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?5efj1s');
-  src:  url('fonts/mdi.eot?5efj1s#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?5efj1s') format('truetype'),
-    url('fonts/mdi.woff?5efj1s') format('woff'),
-    url('fonts/mdi.svg?5efj1s#mdi') format('svg');
+  src:  url('fonts/mdi.eot?nbgzte');
+  src:  url('fonts/mdi.eot?nbgzte#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?nbgzte') format('truetype'),
+    url('fonts/mdi.woff?nbgzte') format('woff'),
+    url('fonts/mdi.svg?nbgzte#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,294 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-alarm-snooze:before {
+  content: "\ead0";
+}
+.mdi-alarm:before {
+  content: "\ead1";
+}
+.mdi-layers-triple-outline:before {
+  content: "\eaca";
+}
+.mdi-human-male-height:before {
+  content: "\eacb";
+}
+.mdi-map-marker-outline:before {
+  content: "\eacc";
+}
+.mdi-invoice-text-outline:before {
+  content: "\eacd";
+}
+.mdi-road-variant:before {
+  content: "\eace";
+}
+.mdi-road:before {
+  content: "\eacf";
+}
+.mdi-reply:before {
+  content: "\eac8";
+}
+.mdi-reply-outline:before {
+  content: "\eac9";
+}
+.mdi-email-plus-outline:before {
+  content: "\eac2";
+}
+.mdi-email-plus:before {
+  content: "\eac3";
+}
+.mdi-email-open:before {
+  content: "\eac4";
+}
+.mdi-email-open-multiple-outline:before {
+  content: "\eac5";
+}
+.mdi-email-open-outline:before {
+  content: "\eac6";
+}
+.mdi-email-outline:before {
+  content: "\eac7";
+}
+.mdi-rhombus:before {
+  content: "\eaba";
+}
+.mdi-rhombus-outline:before {
+  content: "\eabb";
+}
+.mdi-alarm-light-outline:before {
+  content: "\eabc";
+}
+.mdi-information-outline:before {
+  content: "\eabd";
+}
+.mdi-hand-front-right-outline:before {
+  content: "\eabe";
+}
+.mdi-alert-outline:before {
+  content: "\eabf";
+}
+.mdi-progress-clock:before {
+  content: "\eac0";
+}
+.mdi-timer-pause-outline:before {
+  content: "\eac1";
+}
+.mdi-knob:before {
+  content: "\eab5";
+}
+.mdi-tune-vertical-variant:before {
+  content: "\eab6";
+}
+.mdi-tune-vertical:before {
+  content: "\eab7";
+}
+.mdi-tune-variant:before {
+  content: "\eab8";
+}
+.mdi-tune:before {
+  content: "\eab9";
+}
+.mdi-vector-rectangle:before {
+  content: "\eab1";
+}
+.mdi-restart-off:before {
+  content: "\eab2";
+}
+.mdi-restart-alert:before {
+  content: "\eab3";
+}
+.mdi-restart:before {
+  content: "\eab4";
+}
+.mdi-package-variant-closed-plus:before {
+  content: "\eaaf";
+}
+.mdi-package-variant-plus:before {
+  content: "\eab0";
+}
+.mdi-checkbox-marked-circle-outline:before {
+  content: "\eaa8";
+}
+.mdi-checkbox-marked-circle:before {
+  content: "\eaa9";
+}
+.mdi-timer-sand-paused:before {
+  content: "\eaaa";
+}
+.mdi-timer-sand:before {
+  content: "\eaab";
+}
+.mdi-timer-sand-full:before {
+  content: "\eaac";
+}
+.mdi-timer-sand-empty:before {
+  content: "\eaad";
+}
+.mdi-timer-sand-complete:before {
+  content: "\eaae";
+}
+.mdi-order-alphabetical-ascending:before {
+  content: "\eaa7";
+}
+.mdi-filter-check-outline:before {
+  content: "\eaa5";
+}
+.mdi-filter-check:before {
+  content: "\eaa6";
+}
+.mdi-check-circle:before {
+  content: "\eaa3";
+}
+.mdi-check-circle-outline:before {
+  content: "\eaa4";
+}
+.mdi-magnify-remove-cursor:before {
+  content: "\eaa1";
+}
+.mdi-magnify-remove-outline:before {
+  content: "\eaa2";
+}
+.mdi-order-bool-ascending-variant:before {
+  content: "\ea02";
+}
+.mdi-order-bool-ascending:before {
+  content: "\eaa0";
+}
+.mdi-format-text:before {
+  content: "\ea9e";
+}
+.mdi-format-text-variant:before {
+  content: "\ea9f";
+}
+.mdi-image:before {
+  content: "\ea01";
+}
+.mdi-format-list-checks:before {
+  content: "\ea9b";
+}
+.mdi-keyboard-space:before {
+  content: "\ea9c";
+}
+.mdi-text-short:before {
+  content: "\ea9d";
+}
+.mdi-account-key-outline:before {
+  content: "\ea99";
+}
+.mdi-account-key:before {
+  content: "\ea9a";
+}
+.mdi-dots-grid:before {
+  content: "\ea98";
+}
+.mdi-format-list-group:before {
+  content: "\ea97";
+}
+.mdi-database:before {
+  content: "\ea96";
+}
+.mdi-arrow-expand-horizontal:before {
+  content: "\ea93";
+}
+.mdi-camera-plus-outline:before {
+  content: "\ea94";
+}
+.mdi-camera-plus:before {
+  content: "\ea95";
+}
+.mdi-video-high-definition:before {
+  content: "\ea90";
+}
+.mdi-video-plus:before {
+  content: "\ea91";
+}
+.mdi-video-plus-outline:before {
+  content: "\ea92";
+}
+.mdi-sort:before {
+  content: "\ea8f";
+}
+.mdi-redo-variant:before {
+  content: "\ea88";
+}
+.mdi-redo:before {
+  content: "\ea89";
+}
+.mdi-file-undo:before {
+  content: "\ea8a";
+}
+.mdi-file-undo-outline:before {
+  content: "\ea8b";
+}
+.mdi-undo:before {
+  content: "\ea8c";
+}
+.mdi-undo-variant:before {
+  content: "\ea8d";
+}
+.mdi-file-restore:before {
+  content: "\ea8e";
+}
+.mdi-database-eye-off-outline:before {
+  content: "\ea84";
+}
+.mdi-database-eye-off:before {
+  content: "\ea85";
+}
+.mdi-database-eye-outline:before {
+  content: "\ea86";
+}
+.mdi-database-eye:before {
+  content: "\ea87";
+}
+.mdi-contain-start:before {
+  content: "\ea81";
+}
+.mdi-contain-end:before {
+  content: "\ea82";
+}
+.mdi-contain:before {
+  content: "\ea83";
+}
+.mdi-delete-forever-outline:before {
+  content: "\ea7f";
+}
+.mdi-delete-forever:before {
+  content: "\ea80";
+}
+.mdi-delete-alert:before {
+  content: "\ea7d";
+}
+.mdi-delete-alert-outline:before {
+  content: "\ea7e";
+}
+.mdi-email-arrow-right-outline:before {
+  content: "\ea7b";
+}
+.mdi-email-arrow-right:before {
+  content: "\ea7c";
+}
+.mdi-invoice-remove:before {
+  content: "\ea77";
+}
+.mdi-invoice-remove-outline:before {
+  content: "\ea78";
+}
+.mdi-invoice-check-outline:before {
+  content: "\ea79";
+}
+.mdi-invoice-check:before {
+  content: "\ea7a";
+}
+.mdi-clipboard-flow-outline:before {
+  content: "\ea75";
+}
+.mdi-clipboard-flow:before {
+  content: "\ea76";
+}
+.mdi-restore-alert:before {
+  content: "\ea74";
+}
 .mdi-arrow-left-bold-circle:before {
   content: "\ea73";
 }
@@ -366,12 +654,6 @@
 }
 .mdi-format-list-bulleted-type:before {
   content: "\ea00";
-}
-.mdi-order-bool-ascending-variant:before {
-  content: "\ea01";
-}
-.mdi-order-bool-ascending:before {
-  content: "\ea02";
 }
 .mdi-file-document-remove-outline:before {
   content: "\e9f7";
@@ -1140,4 +1422,10 @@
 }
 .mdi-webpack:before {
   content: "\e90b";
+}
+.mdi-cog-play:before {
+  content: "\ead2";
+}
+.mdi-cog-play-outline:before {
+  content: "\ead3";
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mdi';
-  src:  url('fonts/mdi.eot?ij54da');
-  src:  url('fonts/mdi.eot?ij54da#iefix') format('embedded-opentype'),
-    url('fonts/mdi.ttf?ij54da') format('truetype'),
-    url('fonts/mdi.woff?ij54da') format('woff'),
-    url('fonts/mdi.svg?ij54da#mdi') format('svg');
+  src:  url('fonts/mdi.eot?8nn0wm');
+  src:  url('fonts/mdi.eot?8nn0wm#iefix') format('embedded-opentype'),
+    url('fonts/mdi.ttf?8nn0wm') format('truetype'),
+    url('fonts/mdi.woff?8nn0wm') format('woff'),
+    url('fonts/mdi.svg?8nn0wm#mdi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mdi-format-horizontal-align-right:before {
+  content: "\eae0";
+}
+.mdi-format-horizontal-align-left:before {
+  content: "\eae1";
+}
+.mdi-format-horizontal-align-center:before {
+  content: "\eae2";
+}
+.mdi-format-text-rotation-down-vertical:before {
+  content: "\eae3";
+}
+.mdi-format-text-rotation-vertical:before {
+  content: "\eae4";
+}
+.mdi-format-vertical-align-top:before {
+  content: "\eae5";
+}
+.mdi-format-vertical-align-center:before {
+  content: "\eae6";
+}
+.mdi-format-vertical-align-bottom:before {
+  content: "\eae7";
+}
 .mdi-target-account:before {
   content: "\eadb";
 }
